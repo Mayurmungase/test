@@ -41,5 +41,11 @@ public class HomePageTest extends BaseTest{
 		
 		
 	}
+      @Test (priority=4)
+	public void verifyurl() {
+		
+		System.out.println(driver.getUrl());
+      }
+		
 
 }
